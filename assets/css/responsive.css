@@ -1,0 +1,546 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    :root
+{
+  --f36: 30px;
+}
+    .hero_text h1 {
+        font-size: 150px;
+    }
+    
+    .hero_text span {
+        font-size: 150px;
+    }
+
+    .hero_text h1 img {
+        width: 69px;
+        left: -60px;
+    }
+    
+    .hero_text p {
+        font-size: 32px;
+    }
+    
+    .Request_content h1 {
+        font-size: 38px;
+    }
+    
+    .Request_content p {
+        font-size: 27px;
+        margin: 50px 0;
+    }
+    
+    .Request_content {
+    max-width: 50%;
+    padding: 50px;
+}
+.Request_content a {
+    font-size: 34px;
+    width: 400px;
+    height: 120px;
+}
+.contact_text {
+    font-size: 42px;
+}
+
+.pricing_text h3 {
+    font-size: 60px;
+}
+.pricing_text p {
+    font-size: 23px;
+}
+
+.pricing_item.v1 .pricing_img i {
+    margin-top: 0;
+}
+
+.pricing-blk h1 {
+    font-size: 50px;
+}
+
+.pricing-blk p {
+    font-size: 20px;
+}
+
+.pricing-blk {
+    flex: 0 0 50%;
+}
+
+.pricing_wrp {
+    flex-wrap: wrap;
+}
+
+.pricing-blk h2 {
+    padding-right: 20px;
+}
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    :root
+{
+  --f36: 22px;
+}
+    .hero_text h1 {
+        font-size: 185px;
+    }
+    
+    .hero_text span {
+        font-size: 185px;
+    }
+    
+    
+    .hero_text h1 img {
+        width: 80px;
+        left: -60px;
+    }
+    
+    .hero_text p {
+        font-size: 40px;
+    }
+    
+    .Request_content h1 {
+        font-size: 32px;
+    }
+    
+    .Request_content p {
+        font-size: 20px;
+        margin: 30px auto;
+        max-width: 400px;
+    }
+    
+    .Request_content {
+    max-width: 50%;
+    padding: 50px;
+}
+.Request_content a {
+    font-size: 25px;
+    width: 310px;
+    height: 105px;
+}
+.contact_text {
+    font-size: 36px;
+}
+
+.pricing_text h3 {
+    font-size: 60px;
+}
+.pricing_text p {
+    font-size: 23px;
+}
+
+.pricing_item .pricing_img i {
+    margin-top: 0;
+    max-width: 500px;
+    margin-inline: auto;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.pricing-blk h1 {
+    font-size: 50px;
+}
+
+.pricing-blk p {
+    font-size: 20px;
+}
+
+.pricing-blk {
+    flex: 0 0 50%;
+}
+
+.pricing_wrp {
+    flex-wrap: wrap;
+}
+
+.pricing-blk h2 {
+    padding-right: 20px;
+}
+.contact_content {
+    max-width: 95%;
+}
+
+.contact_content > input, .custom-select, .check_box {
+    height: 70px;
+}
+
+.footer-content p {
+    font-size: 24px;
+    max-width: 90%;
+}
+
+.footer-content ul li {
+    font-size: 20px;
+}
+img.thundar {
+    display: none;
+}
+
+.pricing_item .container-fluid > .row {
+    flex-direction: column-reverse;
+}
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    :root
+{
+  --f36: 22px;
+}
+    .hero_text h1 {
+        font-size: 160px;
+    }
+    
+    .hero_text span {
+        font-size: 160px;
+    }
+    
+
+    
+    .hero_text h1 img {
+        width: 65px;
+        left: -60px;
+    }
+    
+    .hero_text p {
+        font-size: 34px;
+    }
+    
+    .Request_content h1 {
+        font-size: 32px;
+        max-width: 500px;
+        margin-inline: auto;
+    }
+    
+    .Request_content p {
+        font-size: 24px;
+        margin: 30px auto;
+        max-width: 501px;
+    }
+    
+    .Request_content {
+    padding: 50px;
+    margin-inline: auto;
+}
+.Request_content a {
+    font-size: 25px;
+    width: 310px;
+    height: 105px;
+}
+.contact_text {
+    font-size: 26px;
+}
+
+.pricing_text h3 {
+    font-size: 60px;
+}
+.pricing_text p {
+    font-size: 23px;
+}
+
+.pricing_item .pricing_img i {
+    margin-top: 0;
+    max-width: 500px;
+    margin-inline: auto;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.pricing-blk h1 {
+    font-size: 50px;
+}
+
+.pricing-blk p {
+    font-size: 20px;
+}
+
+.pricing-blk {
+    flex: 0 0 50%;
+}
+
+.pricing_wrp {
+    flex-wrap: wrap;
+}
+
+.pricing-blk h2 {
+    padding-right: 20px;
+}
+.contact_content {
+    max-width: 95%;
+}
+
+.contact_content > input, .custom-select, .check_box {
+    height: 70px;
+    width: 100%;
+}
+
+.footer-content p {
+    font-size: 24px;
+    max-width: 90%;
+}
+
+.footer-content ul li {
+    font-size: 20px;
+}
+img.thundar {
+    display: none;
+}
+
+.pricing_item .container-fluid > .row {
+    flex-direction: column-reverse;
+}
+.hero_btm {
+    flex-wrap: wrap;
+}
+
+.Request_img {
+    display: none;
+}
+
+.contact_ot_option {
+    flex-direction: column;
+}
+
+.check_box {
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.contact_content > input {
+    margin-bottom: 30px;
+}
+
+.pricing-blk ul li {
+    font-size: 20px;
+}
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    :root
+{
+  --f36: 20px;
+}
+    .hero_text h1 {
+        font-size: 90px;
+    }
+    
+    .hero_text span {
+        font-size: 90px;
+        top: 5px;
+    }
+    
+    
+    .hero_text h1 img {
+        width: 41px;
+        left: -35px;
+    }
+    
+    .hero_text p {
+        font-size: 26px;
+        max-width: 250px;
+    }
+    
+    .Request_content h1 {
+        font-size: 32px;
+        max-width: 500px;
+        margin-inline: auto;
+    }
+    
+    .Request_content p {
+        font-size: 20px;
+        margin: 30px auto;
+        max-width: 501px;
+        text-align: center;
+    }
+    
+    .Request_content {
+    padding: 30px;
+    margin-inline: auto;
+    padding-top: 50px;
+}
+.Request_content a {
+    font-size: 22px;
+    width: 264px;
+    height: 85px;
+    margin: 30px auto;
+}
+
+.Request_content span {
+    font-size: 18px;
+}
+.contact_text {
+    font-size: 22px;
+}
+
+.pricing_text h3 {
+    font-size: 32px;
+    margin: 40px 0 30px;
+}
+.pricing_text p {
+    font-size: 18px;
+}
+
+.pricing_item .pricing_img i {
+    margin-top: 0;
+    max-width: 500px;
+    margin-inline: auto;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.pricing-blk h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.pricing-blk p {
+    font-size: 18px;
+}
+
+.pricing-blk {
+    flex: 0 0 100%;
+    padding: 30px;
+    border: none;
+}
+
+.pricing-blk p {
+    width: 100% !important;
+    margin: auto !important;
+}
+
+.pricing_wrp {
+    flex-wrap: wrap;
+}
+
+.pricing-blk h2 {font-size: 24px;}
+.contact_content {
+    max-width: 95%;
+    padding: 50px 20px 30px;
+}
+
+.contact_content > input, .custom-select, .check_box {
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.footer-content p {
+    font-size: 20px;
+    max-width: 90%;
+}
+
+.footer-content ul li {
+    font-size: 18px;
+}
+img.thundar {
+    display: none;
+}
+
+.pricing_item .container-fluid > .row {
+    flex-direction: column-reverse;
+}
+.hero_btm {
+    flex-wrap: wrap;
+}
+
+.Request_img {
+    display: none;
+}
+
+.contact_ot_option {
+    flex-direction: column;
+}
+
+.check_box {
+    margin-left: 0;
+    margin-top: 24px;
+    padding: 5px 20px;
+    padding-right: 0;
+}
+
+.contact_content > input {
+    margin-bottom: 24px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.pricing-blk ul li {
+    font-size: 18px;
+}
+.select-items div, .select-selected {
+    padding-left: 0;
+}
+
+.select-selected:after {
+    border-width: 10px;
+    top: 40%;
+}
+
+.check_box input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.check_box label {
+    font-size: 16px;
+}
+
+.contact_content a.thm_btn {
+    height: 55px;
+    max-width: 200px;
+    margin-inline: auto;
+}
+
+.pricing_content {
+    padding: 20px 0;
+    margin-top: 51px;
+}
+
+.pricing-blk ul {
+    margin-top: 25px;
+}
+
+.pricing_content p {
+    font-size: 20px;
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 20px;
+}
+
+.pricing_item {
+    padding: 68px 0 80px;
+    border-width: 8px;
+}
+
+.pricing_item.v2 .pricing_text i img {
+    max-width: 170px;
+}
+
+.pricing_item.v2 .pricing_img_bolt {
+    display: none;
+}
+
+
+.footer-content ul.social li {
+    font-size: 21px;
+}
+
+.footer-Area {
+    margin-bottom: 50px;
+}
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}

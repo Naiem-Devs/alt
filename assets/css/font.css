@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/font/HelveticaNeue.woff2') format('woff2'),
+        url('../fonts/font/HelveticaNeue.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/font/HelveticaNeueBold.woff2') format('woff2'),
+        url('../fonts/font/HelveticaNeueBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Helvetica CondensedBold';
+    src: url('../fonts/font/HelveticaNeue-CondensedBold.woff2') format('woff2'),
+        url('../fonts/font/HelveticaNeue-CondensedBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/font/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/font/Gilroy-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/font/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/font/Gilroy-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
