@@ -478,6 +478,10 @@ img.thundar {
     padding-left: 0;
 }
 
+.select-items div {
+    padding-left: 20px;
+}
+
 .select-selected:after {
     border-width: 10px;
     top: 40%;
@@ -489,6 +493,14 @@ img.thundar {
     margin-right: 10px;
 }
 
+.check_box input:checked:after {
+    width: 6px;
+    height: 12px;
+    border-width: 0 2px 2px 0;
+    left: 7px;
+    top: 2px;
+}
+
 .check_box label {
     font-size: 16px;
 }
@@ -497,6 +509,10 @@ img.thundar {
     height: 55px;
     max-width: 200px;
     margin-inline: auto;
+}
+
+.contact-area {
+    padding-bottom: 80px;
 }
 
 .pricing_content {
