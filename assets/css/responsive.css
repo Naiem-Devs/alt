@@ -450,6 +450,10 @@ img.thundar {
     flex-wrap: wrap;
 }
 
+.hero-Area {
+    padding-bottom: 140px;
+}
+
 .Request_img {
     display: none;
 }
@@ -512,7 +516,7 @@ img.thundar {
 }
 
 .contact-area {
-    padding-bottom: 80px;
+    padding: 70px 0 70px;
 }
 
 .pricing_content {
