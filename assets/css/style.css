@@ -8,7 +8,7 @@ font-family: 'Gilroy';
 
 :root
 {
-  --f36: 36px;
+  --f36: 28px;
 }
 
 body {
@@ -175,12 +175,12 @@ li {
 }
 
 .hero_text p {
-    font-size: 54px;
+    font-size: 43px;
     color: #fce300;
 }
 
 .hero_text h1 {
-    font-size: 250px;
+    font-size: 200px;
     line-height: .9;
     margin-bottom: 0;
     font-style: italic;
@@ -200,7 +200,7 @@ li {
     left: 4px;
     color: #000;
     z-index: 1;
-    font-size: 250px;
+    font-size: 200px;
     line-height: .9;
     margin-bottom: 0;
     font-style: italic;
@@ -210,8 +210,8 @@ li {
     z-index: 0;
 }
 
-.hero_btm {display: flex;overflow: hidden;padding-bottom: 24px;background: #fbc315;}
-.Request_content {background: #FBC315;text-align: center;padding: 100px;color: #000;max-width: 959px;padding-bottom: 0;}
+.hero_btm {display: flex;overflow: hidden;padding-bottom: 24px;background: #fbc315;height: 786px;}
+.Request_content {background: #FBC315;text-align: center;padding: 100px;color: #000;max-width: 940px;padding-bottom: 0;width: 100%;padding-top: 80px;}
 
 .Request_content span {
     font-size: var(--f36);
@@ -222,13 +222,13 @@ li {
     border: 2px solid #fff;
     background: #000;
     color: #fff;
-    font-size: 45px;
+    font-size: 38px;
     padding: 10px 20px;
     line-height: 1;
     text-transform: uppercase;
     font-weight: 700;
-    width: 500px;
-    height: 135px;
+    width: 415px;
+    height: 130px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -244,18 +244,31 @@ li {
 }
 
 .Request_content p {
-    font-size: 40px;
+    font-size: 28px;
     text-align: left;
     font-family: 'Gilroy';
     line-height: 1.2;
-    margin: 100px 0;
+    margin: 55px auto;
+    max-width: 500px;
+}
+
+.Request_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Request_img {
+    width: 50%;
 }
 
 .Request_content h1 {
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 39px;
     margin-bottom: 30px;
     font-family: 'Helvetica CondensedBold';
+    max-width: 500px;
+    margin-inline: auto;
 }
 
 /*============ Area End =============*/
@@ -264,7 +277,7 @@ li {
 /*============ Area Start =============*/
 .contact-area {padding: 80px 0 120px;}
 
-.contact_content {padding: 90px 70px 70px;background: #fff;max-width: 1400px;margin-inline: auto;}
+.contact_content {padding: 90px 70px 70px;background: #fff;max-width: 1200px;margin-inline: auto;}
 
 .contact_content a.thm_btn {
     width: 280px;
@@ -334,13 +347,18 @@ li {
     z-index: 99;
 }
 
-.contact_text {text-align: center;font-size: 53px;margin: auto;text-transform: uppercase;font-family: 'Helvetica CondensedBold';line-height: 1.2;margin-top: 40px;}
+.contact_text {text-align: center;font-size: 44px;margin: auto;text-transform: uppercase;font-family: 'Helvetica CondensedBold';line-height: 1.2;margin-top: 40px;}
 /*============ Area End =============*/
 
 
 /*============ Area Start =============*/
 
 .pricing_item .container-fluid {padding: 0 30px;}
+
+.pricing_item .container-fluid > .row {
+    max-width: 1420px;
+    margin-inline: auto;
+}
 
 .pricing_item {
     overflow: hidden;
@@ -388,7 +406,7 @@ li {
 
 .pricing_item.v2 .pricing_img i {margin-top: 15px;}
 
-.pricing_item .pricing_img i {display: block;margin-top: -100px;}
+.pricing_item .pricing_img i {display: block;margin-top: -49px;text-align: right;}
 
 .pricing_item.v2 .pricing_content {
     background: linear-gradient(90deg, #24AB87, #008B70);
@@ -410,16 +428,18 @@ li {
 
 
 .pricing_text p {
-    font-size: 30px;
+    font-size: 22px;
     line-height: 1.2;
-    max-width: 840px;
+    max-width: 632px;
     margin-inline: auto;
 }
 
 .pricing_text h3 {
-    font-size: 91px;
+    font-size: 52px;
     margin: 60px 0 71px;
     font-family: 'Helvetica CondensedBold';
+    max-width: 500px;
+    margin-inline: auto;
 }
 .pricing_text h3.color {font-family: 'Helvetica CondensedBold';color: #F36E21;}
 
@@ -438,6 +458,7 @@ li {
 .pricing_img i img {
     /* margin-left: -71px; */
     position: relative;
+    max-width: 90%;
 }
 .pricing_img_bolt {position: absolute;right: 140px;/* top: 0; */transform: translateY(-162px);}
 .thundar {position: absolute;z-index: 0;right: 0;}
@@ -445,7 +466,7 @@ li {
 
 .pricing_content p {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     margin: 50px 0 20px;
 }
 .pricing_wrp {display: flex;}
@@ -468,7 +489,7 @@ li {
 }
 
 .pricing-blk ul li {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .pricing-blk h2 {
@@ -477,13 +498,13 @@ li {
 }
 
 .pricing-blk p {
-    font-size: 26px;
+    font-size: 20px;
     text-align: left;
     margin: 0;
 }
 
 .pricing-blk h1 {
-    font-size: 75px;
+    font-size: 60px;
     font-family: 'Helvetica CondensedBold';
     margin-bottom: 40px;
 }
@@ -508,7 +529,7 @@ li {
     display: inline-block;
     margin: 0 10px;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 18px;
     /* font-weight: 700; */
 }
 
@@ -533,7 +554,7 @@ li {
 
 .footer-content ul.social li {
     margin: 0 5px;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 400;
 }
 
@@ -542,8 +563,8 @@ li {
 }
 
 .footer-content p {
-    font-size: 30px;
-    max-width: 1416px;
+    font-size: 22px;
+    max-width: 1123px;
     margin-inline: auto;
     line-height: 1.3;
     margin-bottom: 90px;

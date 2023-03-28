@@ -2,7 +2,7 @@
 @media (min-width: 1200px) and (max-width: 1500px) {
     :root
 {
-  --f36: 30px;
+  --f36: 24px;
 }
     .hero_text h1 {
         font-size: 150px;
@@ -11,7 +11,9 @@
     .hero_text span {
         font-size: 150px;
     }
-
+    .contact_content {
+        max-width: 1000px;
+    }
     .hero_text h1 img {
         width: 69px;
         left: -60px;
@@ -29,10 +31,13 @@
         font-size: 27px;
         margin: 50px 0;
     }
-    
+    .thundar{
+    max-width: 488px;
+}
     .Request_content {
     max-width: 50%;
     padding: 50px;
+    padding-top: 100px;
 }
 .Request_content a {
     font-size: 34px;
@@ -40,11 +45,11 @@
     height: 120px;
 }
 .contact_text {
-    font-size: 42px;
+    font-size: 38px;
 }
 
 .pricing_text h3 {
-    font-size: 60px;
+    font-size: 50px;
 }
 .pricing_text p {
     font-size: 23px;
@@ -72,6 +77,7 @@
 
 .pricing-blk h2 {
     padding-right: 20px;
+    max-width: 320px;
 }
 
 }
